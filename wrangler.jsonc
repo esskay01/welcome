@@ -1,0 +1,23 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "welcome-sksap",
+  "compatibility_date": "2026-09-14",
+  "main": "src/index.js",
+  "assets": {
+    "directory": "./public",
+    "binding": "ASSETS",
+    "run_worker_first": ["/api/*"]
+  },
+  "kv_namespaces": [
+    {
+      "binding": "WISHES_KV",
+      "id": "7f543902b82d4417a6ed9ec454ea536b"
+    }
+  ],
+  "routes": [
+    {
+      "pattern": "welcome.sksap.com",
+      "custom_domain": true
+    }
+  ]
+}
