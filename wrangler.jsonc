@@ -11,7 +11,7 @@
   "kv_namespaces": [
     {
       "binding": "WISHES_KV",
-      "id": "REPLACE_WITH_YOUR_KV_NAMESPACE_ID"
+      "id": "7f543902b82d4417a6ed9ec454ea536b"
     }
   ],
   "routes": [
