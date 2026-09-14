@@ -8,7 +8,10 @@
     "binding": "ASSETS",
     "run_worker_first": ["/api/*"]
   },
-{"compatibility_date":"2026-09-11"}
+{
+	// Opt into backwards-incompatible changes through April 5, 2022.
+	"compatibility_date": "2022-04-05"
+}
   "kv_namespaces": [
     {
       "binding": "WISHES_KV",
