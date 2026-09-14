@@ -2,6 +2,7 @@
   "$schema": "node_modules/wrangler/config-schema.json",
   "name": "welcome-sksap",
   "compatibility_date":"2026-09-11",
+  "name": "welcome", 
   "main": "src/index.js",
   "assets": {
     "directory": "./public",
